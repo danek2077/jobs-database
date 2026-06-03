@@ -30,7 +30,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -115,9 +115,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -145,10 +143,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -182,8 +177,6 @@
     ],
     "business_domains": [
       "B2B",
-      "CRM",
-      "ERP",
       "ECommerce"
     ]
   },
@@ -212,9 +205,7 @@
       "Strapi"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Energy"
     ]
   },
   {
@@ -271,9 +262,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -298,8 +287,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -320,8 +308,7 @@
       "Drupal"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -365,8 +352,6 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "Logistics"
     ]
   },
@@ -385,6 +370,7 @@
       "React Native"
     ],
     "business_domains": [
+      "ECommerce",
       "HealthTech"
     ]
   },
@@ -409,8 +395,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -430,8 +415,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -459,8 +443,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -488,9 +471,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -524,10 +505,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "CyberSecurity"
+      "EdTech"
     ]
   },
   {
@@ -544,7 +522,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "PublicSector"
     ]
   },
   {
@@ -562,7 +540,8 @@
       "React"
     ],
     "business_domains": [
-      "CyberSecurity"
+      "CyberSecurity",
+      "DevTools"
     ]
   },
   {
@@ -589,7 +568,6 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce",
       "Marketplace"
     ]
@@ -611,7 +589,7 @@
       "AWS"
     ],
     "business_domains": [
-      "Unknown"
+      "SaaS"
     ]
   },
   {
@@ -685,9 +663,8 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "CyberSecurity"
+      "CyberSecurity",
+      "DevTools"
     ]
   },
   {
@@ -719,10 +696,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "Gaming"
+      "Unknown"
     ]
   },
   {
@@ -748,9 +722,6 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
       "Gaming"
     ]
   },
@@ -770,10 +741,7 @@
       "Angular"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -795,9 +763,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -819,10 +785,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI"
+      "HRTech"
     ]
   },
   {
@@ -841,10 +804,7 @@
       "Vue"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -868,9 +828,8 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "AI",
+      "ECommerce"
     ]
   },
   {
@@ -894,10 +853,7 @@
       "JWT"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -914,8 +870,7 @@
       "Next.js"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -937,9 +892,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Marketplace"
+      "Media"
     ]
   },
   {
@@ -956,7 +909,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "Telecom"
     ]
   },
   {
@@ -978,8 +931,6 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -1011,10 +962,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "DevTools"
+      "Unknown"
     ]
   },
   {
@@ -1031,9 +979,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -1063,8 +1009,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -1085,9 +1030,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -1133,9 +1076,6 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
       "Gaming"
     ]
   },
@@ -1158,9 +1098,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -1178,7 +1116,7 @@
       "AWS"
     ],
     "business_domains": [
-      "Unknown"
+      "CRM"
     ]
   },
   {
@@ -1195,7 +1133,8 @@
       "Angular"
     ],
     "business_domains": [
-      "Unknown"
+      "Consulting",
+      "PublicSector"
     ]
   },
   {
@@ -1229,7 +1168,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -1246,7 +1185,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -1279,9 +1218,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -1298,7 +1235,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "PublicSector"
     ]
   },
   {
@@ -1333,7 +1270,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "CyberSecurity"
     ]
   },
   {
@@ -1368,6 +1305,7 @@
       "Not specified"
     ],
     "business_domains": [
+      "PublicSector",
       "RealEstate"
     ]
   },
@@ -1425,9 +1363,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -1453,10 +1389,7 @@
       "TDD"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "EdTech",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -1513,7 +1446,7 @@
       "React"
     ],
     "business_domains": [
-      "Unknown"
+      "PublicSector"
     ]
   },
   {
@@ -1561,9 +1494,8 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Energy",
+      "Telecom"
     ]
   },
   {
@@ -1587,8 +1519,7 @@
       "SSR"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -1616,8 +1547,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -1640,10 +1570,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -1662,9 +1589,8 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "AI",
+      "MarTech"
     ]
   },
   {
@@ -1696,12 +1622,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "FinTech",
-      "HealthTech",
       "ECommerce",
-      "AI",
+      "FinTech",
       "Logistics"
     ]
   },
@@ -1730,10 +1652,10 @@
       "Accessibility"
     ],
     "business_domains": [
-      "SaaS",
+      "Automotive",
       "B2B",
-      "ERP",
-      "ECommerce"
+      "ECommerce",
+      "SaaS"
     ]
   },
   {
@@ -1753,10 +1675,7 @@
       "Tailwind"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "Logistics"
+      "Unknown"
     ]
   },
   {
@@ -1792,9 +1711,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -1816,9 +1733,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Energy"
     ]
   },
   {
@@ -1843,9 +1758,8 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "AI",
+      "HRTech"
     ]
   },
   {
@@ -1866,8 +1780,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -1888,9 +1801,7 @@
       "Styled Components"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -1911,9 +1822,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "FinTech"
     ]
   },
   {
@@ -1959,8 +1868,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -1983,9 +1891,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "DevTools"
+      "Unknown"
     ]
   },
   {
@@ -2003,9 +1909,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -2038,11 +1942,8 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI"
+      "AI",
+      "Energy"
     ]
   },
   {
@@ -2066,9 +1967,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -2131,8 +2030,7 @@
       "Swagger"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2149,7 +2047,7 @@
       "Agile"
     ],
     "business_domains": [
-      "Unknown"
+      "FinTech"
     ]
   },
   {
@@ -2170,9 +2068,8 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
       "FinTech",
-      "ECommerce"
+      "Telecom"
     ]
   },
   {
@@ -2201,11 +2098,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -2254,8 +2147,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2282,11 +2174,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "CyberSecurity",
-      "AI"
+      "CyberSecurity"
     ]
   },
   {
@@ -2303,7 +2191,7 @@
       "TypeScript"
     ],
     "business_domains": [
-      "HealthTech"
+      "Unknown"
     ]
   },
   {
@@ -2326,9 +2214,6 @@
       "Figma"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -2351,8 +2236,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2385,9 +2269,7 @@
       "Linux"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2408,9 +2290,7 @@
       "React"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Marketplace"
+      "Unknown"
     ]
   },
   {
@@ -2444,8 +2324,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2472,9 +2351,8 @@
       "RabbitMQ"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "HealthTech",
+      "SaaS"
     ]
   },
   {
@@ -2498,9 +2376,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2524,9 +2400,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -2549,9 +2423,7 @@
       "React Native"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2573,9 +2445,7 @@
       "Agile"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2605,9 +2475,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "HRTech"
     ]
   },
   {
@@ -2626,10 +2494,7 @@
       "Less"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2653,9 +2518,7 @@
       "Google Cloud"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -2685,8 +2548,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
+      "Consulting",
       "TravelTech"
     ]
   },
@@ -2712,8 +2574,8 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Automotive",
+      "Energy"
     ]
   },
   {
@@ -2738,8 +2600,8 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Automotive",
+      "Energy"
     ]
   },
   {
@@ -2762,8 +2624,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2805,10 +2666,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2835,9 +2693,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2864,9 +2720,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2890,10 +2744,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2914,9 +2765,6 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
       "Gaming"
     ]
   },
@@ -2942,9 +2790,7 @@
       "React Native"
     ],
     "business_domains": [
-      "SaaS",
-      "B2C",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -2978,9 +2824,8 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Consulting",
+      "EdTech"
     ]
   },
   {
@@ -3002,8 +2847,7 @@
       "Cloudflare"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -3029,7 +2873,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3054,9 +2898,9 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ECommerce"
+      "AI",
+      "Energy",
+      "RealEstate"
     ]
   },
   {
@@ -3092,7 +2936,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3132,8 +2976,7 @@
       "REST"
     ],
     "business_domains": [
-      "B2C",
-      "ECommerce"
+      "B2C"
     ]
   },
   {
@@ -3155,7 +2998,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3172,7 +3015,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3189,7 +3032,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3212,7 +3055,6 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce",
       "AI"
     ]
   },
@@ -3260,7 +3102,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3285,8 +3127,7 @@
       "ElasticSearch"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "ERP"
     ]
   },
   {
@@ -3308,7 +3149,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -3327,7 +3168,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3349,9 +3190,8 @@
       "Agile"
     ],
     "business_domains": [
-      "SaaS",
       "B2B",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -3380,7 +3220,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3409,7 +3249,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3438,8 +3278,7 @@
       "Kanban"
     ],
     "business_domains": [
-      "ECommerce",
-      "HRTech"
+      "ECommerce"
     ]
   },
   {
@@ -3464,9 +3303,7 @@
       "Agile"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -3487,7 +3324,7 @@
       "Git"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3508,7 +3345,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3542,7 +3379,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Adult"
+      "Unknown"
     ]
   },
   {
@@ -3561,11 +3398,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "AI"
     ]
   },
   {
@@ -3602,8 +3435,7 @@
       "Vue"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -3631,7 +3463,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -3651,7 +3483,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3680,7 +3512,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3708,7 +3540,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -3737,7 +3569,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -3759,9 +3591,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce",
-      "AI"
+      "AI",
+      "SaaS"
     ]
   },
   {
@@ -3789,7 +3620,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -3819,9 +3650,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -3845,9 +3674,7 @@
       "React Testing Library"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -3869,8 +3696,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -3896,9 +3722,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce",
-      "AI"
+      "SaaS"
     ]
   },
   {
@@ -3921,9 +3745,6 @@
       "Figma"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -3946,9 +3767,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -3965,7 +3784,7 @@
       "PostgreSQL"
     ],
     "business_domains": [
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -4001,8 +3820,7 @@
       "Module Federation"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -4021,8 +3839,6 @@
       "Kafka"
     ],
     "business_domains": [
-      "ECommerce",
-      "Marketplace",
       "AI"
     ]
   },
@@ -4040,7 +3856,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "Consulting"
     ]
   },
   {
@@ -4067,7 +3883,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -4099,8 +3915,7 @@
       "Lazy Loading"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4127,7 +3942,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4146,7 +3961,6 @@
       "React"
     ],
     "business_domains": [
-      "ECommerce",
       "HRTech"
     ]
   },
@@ -4177,7 +3991,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4215,8 +4029,7 @@
       "Ionic"
     ],
     "business_domains": [
-      "ECommerce",
-      "HRTech"
+      "Unknown"
     ]
   },
   {
@@ -4237,8 +4050,7 @@
       "Ionic"
     ],
     "business_domains": [
-      "ECommerce",
-      "HRTech"
+      "B2C"
     ]
   },
   {
@@ -4256,7 +4068,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4274,7 +4086,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4296,8 +4108,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4320,8 +4131,7 @@
       "Agile"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4345,7 +4155,7 @@
       "GitHub Actions"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4376,7 +4186,8 @@
       "Kanban"
     ],
     "business_domains": [
-      "ECommerce"
+      "EdTech",
+      "HealthTech"
     ]
   },
   {
@@ -4400,7 +4211,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4420,7 +4231,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -4443,7 +4254,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4477,7 +4288,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4499,7 +4310,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4558,8 +4369,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -4597,8 +4407,7 @@
       "BDD"
     ],
     "business_domains": [
-      "B2C",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4632,7 +4441,7 @@
       "TDD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -4649,7 +4458,7 @@
       "React"
     ],
     "business_domains": [
-      "Unknown"
+      "FinTech"
     ]
   },
   {
@@ -4673,8 +4482,7 @@
       "Monorepo"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -4695,10 +4503,7 @@
       "REST"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -4726,8 +4531,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ECommerce",
-      "Gaming"
+      "Unknown"
     ]
   },
   {
@@ -4758,10 +4562,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "HealthTech",
-      "ECommerce",
       "AI",
-      "TravelTech"
+      "HealthTech"
     ]
   },
   {
@@ -4789,9 +4591,7 @@
     ],
     "business_domains": [
       "CRM",
-      "EdTech",
-      "ECommerce",
-      "TravelTech"
+      "Media"
     ]
   },
   {
@@ -4817,8 +4617,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -4851,8 +4650,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ECommerce",
-      "Gaming"
+      "Unknown"
     ]
   },
   {
@@ -4886,9 +4684,8 @@
       "Drupal"
     ],
     "business_domains": [
-      "SaaS",
-      "HealthTech",
-      "ECommerce"
+      "Automotive",
+      "Logistics"
     ]
   },
   {
@@ -4916,10 +4713,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "AI"
     ]
   },
   {
@@ -4945,8 +4739,6 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -4965,7 +4757,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -4991,8 +4783,6 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -5019,8 +4809,6 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -5047,8 +4835,6 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -5066,7 +4852,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -5083,7 +4869,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -5111,8 +4897,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "B2B",
-      "ECommerce"
+      "LegalTech"
     ]
   },
   {
@@ -5129,7 +4914,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -5146,7 +4931,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -5168,8 +4953,7 @@
       "Vue"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -5192,7 +4976,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "DevTools"
     ]
   },
   {
@@ -5210,9 +4994,7 @@
       "TypeScript"
     ],
     "business_domains": [
-      "B2B",
-      "B2C",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5230,8 +5012,6 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce",
-      "HRTech",
       "AI"
     ]
   },
@@ -5250,8 +5030,6 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce",
-      "HRTech",
       "AI"
     ]
   },
@@ -5269,7 +5047,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "Media"
     ]
   },
   {
@@ -5290,9 +5068,7 @@
       "Cypress"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "B2B"
     ]
   },
   {
@@ -5311,9 +5087,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -5330,8 +5104,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5354,8 +5127,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5372,8 +5144,7 @@
       "AWS"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5392,8 +5163,7 @@
       "Vue.js"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -5416,8 +5186,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5440,9 +5209,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -5461,9 +5228,7 @@
       "CSS"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5486,8 +5251,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5508,8 +5272,7 @@
       "Tailwind CSS"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5535,12 +5298,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "LegalTech",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -5559,9 +5317,8 @@
       "Next.js"
     ],
     "business_domains": [
-      "ERP",
       "EdTech",
-      "ECommerce"
+      "HRTech"
     ]
   },
   {
@@ -5580,9 +5337,8 @@
       "Next.js"
     ],
     "business_domains": [
-      "ERP",
       "EdTech",
-      "ECommerce"
+      "HRTech"
     ]
   },
   {
@@ -5610,8 +5366,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5633,7 +5388,6 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -5658,7 +5412,6 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -5680,9 +5433,8 @@
       "TDD"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Automotive",
+      "Logistics"
     ]
   },
   {
@@ -5707,7 +5459,6 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -5733,8 +5484,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5757,8 +5507,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5786,8 +5535,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5806,8 +5554,7 @@
       "NestJS"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5831,8 +5578,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5855,8 +5601,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5879,8 +5624,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5901,9 +5645,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -5942,9 +5684,7 @@
       "Contentful"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -5969,10 +5709,6 @@
       "Datadog"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI",
       "DevTools"
     ]
   },
@@ -5999,8 +5735,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6022,8 +5757,6 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -6052,9 +5785,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "AI"
     ]
   },
   {
@@ -6078,9 +5809,7 @@
       "Kanban"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "MarTech"
+      "Unknown"
     ]
   },
   {
@@ -6106,8 +5835,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6127,10 +5855,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI"
+      "ECommerce"
     ]
   },
   {
@@ -6160,11 +5885,7 @@
       "Figma"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -6196,9 +5917,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6218,10 +5937,7 @@
       "Sentry"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "AI"
+      "HealthTech"
     ]
   },
   {
@@ -6238,7 +5954,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Unknown"
     ]
   },
   {
@@ -6257,9 +5973,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -6282,8 +5996,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6306,9 +6019,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6331,8 +6042,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6355,8 +6065,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6379,8 +6088,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6413,9 +6121,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -6443,8 +6149,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6463,8 +6168,6 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "DevTools"
     ]
   },
@@ -6486,8 +6189,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6520,8 +6222,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6548,9 +6249,7 @@
       "Drupal"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -6584,8 +6283,7 @@
       "Drupal"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6607,8 +6305,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6632,9 +6329,7 @@
       "Kubernetes"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6657,8 +6352,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6680,8 +6374,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6703,8 +6396,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6726,8 +6418,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6750,8 +6441,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6773,8 +6463,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6797,9 +6486,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6822,8 +6509,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6851,9 +6537,8 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "AI",
+      "Telecom"
     ]
   },
   {
@@ -6876,8 +6561,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6900,8 +6584,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6924,8 +6607,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6948,8 +6630,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -6974,10 +6655,7 @@
       "WebRTC"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech",
-      "Gaming"
+      "PublicSector"
     ]
   },
   {
@@ -7000,8 +6678,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7024,8 +6701,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7047,8 +6723,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7071,8 +6746,7 @@
       "RESTful"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7090,8 +6764,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7113,9 +6786,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Marketplace"
+      "Unknown"
     ]
   },
   {
@@ -7138,9 +6809,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7162,8 +6831,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7188,9 +6856,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7212,8 +6878,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7241,8 +6906,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7266,9 +6930,8 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "AI",
+      "PublicSector"
     ]
   },
   {
@@ -7293,8 +6956,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -7322,9 +6984,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7351,9 +7011,7 @@
       "Agile"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7381,8 +7039,7 @@
       "Lazy Loading"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7406,8 +7063,7 @@
       "NPM"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7437,9 +7093,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7464,9 +7118,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -7499,8 +7151,7 @@
     ],
     "business_domains": [
       "CRM",
-      "ERP",
-      "ECommerce"
+      "ERP"
     ]
   },
   {
@@ -7519,9 +7170,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -7553,9 +7202,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -7576,9 +7223,7 @@
       "REST"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "PublicSector"
     ]
   },
   {
@@ -7597,8 +7242,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7617,8 +7261,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7648,11 +7291,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -7681,9 +7320,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -7705,9 +7342,8 @@
       "CI/CD"
     ],
     "business_domains": [
+      "Automotive",
       "B2B",
-      "ERP",
-      "ECommerce",
       "Logistics"
     ]
   },
@@ -7728,9 +7364,7 @@
       "Playwright"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Logistics"
+      "Unknown"
     ]
   },
   {
@@ -7747,8 +7381,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7779,9 +7412,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7804,10 +7435,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "DevTools"
+      "AI"
     ]
   },
   {
@@ -7830,10 +7458,8 @@
       "Sentry"
     ],
     "business_domains": [
-      "SaaS",
       "B2B",
-      "ERP",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -7859,8 +7485,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7884,10 +7509,7 @@
       "SSR"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "DevTools"
+      "PublicSector"
     ]
   },
   {
@@ -7920,7 +7542,6 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce",
       "Marketplace"
     ]
@@ -7950,8 +7571,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7973,9 +7593,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -7992,10 +7610,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8019,8 +7634,7 @@
       "Yarn"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8045,10 +7659,7 @@
       "Agile"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8082,9 +7693,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8106,8 +7715,7 @@
       "Ant Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8130,8 +7738,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -8148,9 +7755,9 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Gaming"
+      "Automotive",
+      "Gaming",
+      "Logistics"
     ]
   },
   {
@@ -8175,9 +7782,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -8194,9 +7799,8 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Gaming"
+      "Automotive",
+      "Logistics"
     ]
   },
   {
@@ -8215,9 +7819,7 @@
       "ElasticSearch"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
+      "Automotive",
       "Logistics"
     ]
   },
@@ -8237,9 +7839,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8261,7 +7861,6 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -8281,8 +7880,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8301,8 +7899,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8321,8 +7918,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8341,8 +7937,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8361,8 +7956,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8381,8 +7975,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8401,8 +7994,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8421,8 +8013,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8458,9 +8049,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Automotive"
     ]
   },
   {
@@ -8492,8 +8081,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "DevTools"
     ]
   },
   {
@@ -8512,9 +8100,7 @@
       "React"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "DevTools"
     ]
   },
   {
@@ -8533,10 +8119,7 @@
       "NextJS"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -8559,8 +8142,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8578,10 +8160,8 @@
       "Scrum"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
       "EdTech",
-      "ECommerce"
+      "Telecom"
     ]
   },
   {
@@ -8636,11 +8216,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "EdTech",
-      "ECommerce",
-      "HRTech"
+      "Unknown"
     ]
   },
   {
@@ -8677,8 +8253,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8712,9 +8287,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -8740,8 +8313,7 @@
       "A11Y"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8764,8 +8336,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8800,9 +8371,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -8827,8 +8396,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8851,8 +8419,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8880,9 +8447,7 @@
       "OpenAPI"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8905,8 +8470,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8928,8 +8492,8 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "FinTech",
+      "LegalTech"
     ]
   },
   {
@@ -8946,8 +8510,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8971,8 +8534,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -8995,8 +8557,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9019,8 +8580,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9042,8 +8602,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9066,8 +8625,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9090,8 +8648,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9111,8 +8668,7 @@
       "AWS"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -9133,8 +8689,7 @@
       "Lazy Loading"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "HRTech"
     ]
   },
   {
@@ -9164,8 +8719,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9189,10 +8743,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
       "FinTech",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -9215,8 +8767,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9242,9 +8793,6 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "EdTech",
-      "ECommerce",
       "AI"
     ]
   },
@@ -9267,8 +8815,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9301,9 +8848,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Marketplace"
+      "Unknown"
     ]
   },
   {
@@ -9328,9 +8873,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -9351,9 +8894,7 @@
       "React Native"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -9370,10 +8911,9 @@
       "Not specified"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
+      "EdTech",
       "FinTech",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -9419,8 +8959,7 @@
       "OpenAPI"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9447,8 +8986,6 @@
       "RabbitMQ"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -9468,8 +9005,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9497,8 +9033,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9521,11 +9056,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "Logistics",
-      "TravelTech"
+      "Energy",
+      "FinTech"
     ]
   },
   {
@@ -9546,8 +9078,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -9575,9 +9106,7 @@
       "RabbitMQ"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -9603,10 +9132,7 @@
       "Linux"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
-      "CyberSecurity"
+      "Unknown"
     ]
   },
   {
@@ -9629,7 +9155,7 @@
       "ISR"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9656,8 +9182,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9681,8 +9206,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9705,8 +9229,7 @@
       "Node.js"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9729,8 +9252,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9754,9 +9276,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "FinTech",
+      "LegalTech"
     ]
   },
   {
@@ -9781,8 +9302,7 @@
       "Kubernetes"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9805,11 +9325,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI"
+      "Media"
     ]
   },
   {
@@ -9838,9 +9354,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -9860,9 +9374,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Media"
     ]
   },
   {
@@ -9883,11 +9395,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "B2B",
-      "B2C",
-      "CRM",
-      "ERP",
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -9905,10 +9413,7 @@
       "GTM"
     ],
     "business_domains": [
-      "B2B",
-      "CRM",
-      "ERP",
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -9928,8 +9433,7 @@
       "MySQL"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -9951,8 +9455,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -9974,9 +9477,6 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
       "AI",
       "TravelTech"
     ]
@@ -9995,7 +9495,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10015,8 +9515,7 @@
       "MySQL"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10043,8 +9542,7 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -10064,10 +9562,7 @@
       "NextJS"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -10095,11 +9590,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
       "FinTech",
-      "HealthTech",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -10125,8 +9617,7 @@
       "A11Y"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10143,10 +9634,9 @@
       "Not specified"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
+      "EdTech",
       "FinTech",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -10163,9 +9653,7 @@
       "JavaScript"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "HRTech"
+      "Unknown"
     ]
   },
   {
@@ -10193,9 +9681,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -10215,10 +9701,8 @@
       "Git"
     ],
     "business_domains": [
-      "SaaS",
       "B2B",
-      "ERP",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -10251,10 +9735,7 @@
       "A11Y"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10281,8 +9762,8 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting",
+      "PublicSector"
     ]
   },
   {
@@ -10300,8 +9781,7 @@
       "MySQL"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10318,7 +9798,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10339,9 +9819,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10362,10 +9840,7 @@
       "Google Tag Manager"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
-      "MarTech"
+      "Media"
     ]
   },
   {
@@ -10386,8 +9861,7 @@
       "Azure"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10407,9 +9881,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10432,8 +9904,7 @@
       "Keycloak"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -10459,10 +9930,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "HealthTech",
+      "SaaS"
     ]
   },
   {
@@ -10490,8 +9959,7 @@
       "Keycloak"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -10513,8 +9981,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
+      "B2B",
       "ECommerce"
     ]
   },
@@ -10537,8 +10004,7 @@
       "Keycloak"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "PublicSector"
     ]
   },
   {
@@ -10556,8 +10022,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10581,10 +10046,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "ERP",
       "FinTech",
-      "HealthTech",
-      "ECommerce"
+      "LegalTech"
     ]
   },
   {
@@ -10607,8 +10070,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10625,7 +10087,7 @@
       "Prisma"
     ],
     "business_domains": [
-      "Unknown"
+      "CyberSecurity"
     ]
   },
   {
@@ -10642,7 +10104,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "CyberSecurity"
     ]
   },
   {
@@ -10676,7 +10138,7 @@
       "Prisma"
     ],
     "business_domains": [
-      "Unknown"
+      "CyberSecurity"
     ]
   },
   {
@@ -10727,7 +10189,7 @@
       "Keycloak"
     ],
     "business_domains": [
-      "ECommerce",
+      "Consulting",
       "CyberSecurity"
     ]
   },
@@ -10748,7 +10210,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -10775,7 +10237,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10797,8 +10259,10 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce",
-      "CyberSecurity"
+      "AI",
+      "Consulting",
+      "FinTech",
+      "Telecom"
     ]
   },
   {
@@ -10824,8 +10288,6 @@
       "Git"
     ],
     "business_domains": [
-      "SaaS",
-      "ECommerce",
       "HRTech"
     ]
   },
@@ -10918,7 +10380,7 @@
       "Strapi"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10955,8 +10417,7 @@
       "Lazy Loading"
     ],
     "business_domains": [
-      "EdTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -10984,7 +10445,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11026,7 +10487,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce",
+      "Consulting",
       "CyberSecurity"
     ]
   },
@@ -11048,8 +10509,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce",
-      "CyberSecurity"
+      "Telecom"
     ]
   },
   {
@@ -11072,7 +10532,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce",
+      "Consulting",
       "CyberSecurity"
     ]
   },
@@ -11100,7 +10560,7 @@
       "Git"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11123,7 +10583,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce",
+      "Consulting",
       "CyberSecurity"
     ]
   },
@@ -11163,7 +10623,7 @@
       "SCSS"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11181,8 +10641,7 @@
       "Docker"
     ],
     "business_domains": [
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -11207,9 +10666,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -11238,7 +10695,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ECommerce"
+      "Energy"
     ]
   },
   {
@@ -11270,8 +10727,7 @@
       "WebRTC"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -11315,7 +10771,7 @@
       "Git"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11345,8 +10801,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "B2C",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11363,7 +10818,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "PublicSector"
     ]
   },
   {
@@ -11389,7 +10844,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11414,9 +10869,7 @@
       "OOP"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11451,7 +10904,8 @@
       "React"
     ],
     "business_domains": [
-      "Unknown"
+      "Consulting",
+      "PublicSector"
     ]
   },
   {
@@ -11490,7 +10944,7 @@
       "Lazy Loading"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11531,7 +10985,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11554,8 +11008,8 @@
       "Flutter"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "Consulting",
+      "DevTools"
     ]
   },
   {
@@ -11572,7 +11026,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "PublicSector"
     ]
   },
   {
@@ -11589,7 +11043,9 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP"
+      "Consulting",
+      "CyberSecurity",
+      "Telecom"
     ]
   },
   {
@@ -11623,7 +11079,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
+      "FinTech",
       "RealEstate"
     ]
   },
@@ -11707,7 +11163,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11730,7 +11186,7 @@
       "Sass"
     ],
     "business_domains": [
-      "ECommerce"
+      "Automotive"
     ]
   },
   {
@@ -11751,7 +11207,7 @@
       "Vue"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11775,8 +11231,8 @@
       "Git"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI"
+      "Automotive",
+      "Consulting"
     ]
   },
   {
@@ -11803,7 +11259,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11861,8 +11317,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "FinTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11891,7 +11346,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11917,7 +11372,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11944,7 +11399,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -11969,12 +11424,7 @@
       "Agile"
     ],
     "business_domains": [
-      "SaaS",
-      "B2C",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "Marketplace"
+      "Energy"
     ]
   },
   {
@@ -12004,9 +11454,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ECommerce",
-      "AI",
-      "Logistics"
+      "Unknown"
     ]
   },
   {
@@ -12024,7 +11472,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12047,7 +11495,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12084,7 +11532,8 @@
       "Azure"
     ],
     "business_domains": [
-      "ECommerce"
+      "Consulting",
+      "Telecom"
     ]
   },
   {
@@ -12115,8 +11564,7 @@
       "JWT"
     ],
     "business_domains": [
-      "ECommerce",
-      "CyberSecurity"
+      "Unknown"
     ]
   },
   {
@@ -12134,7 +11582,7 @@
       "Vue.js"
     ],
     "business_domains": [
-      "Unknown"
+      "ECommerce"
     ]
   },
   {
@@ -12215,8 +11663,7 @@
       "Less"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12242,9 +11689,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "RealEstate"
+      "Unknown"
     ]
   },
   {
@@ -12267,8 +11712,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "ERP"
     ]
   },
   {
@@ -12290,11 +11734,7 @@
       "Less"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "CyberSecurity"
+      "Unknown"
     ]
   },
   {
@@ -12314,8 +11754,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting"
     ]
   },
   {
@@ -12332,8 +11771,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12362,10 +11800,7 @@
       "Contentful"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -12390,8 +11825,6 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "RealEstate"
     ]
   },
@@ -12415,9 +11848,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Telecom"
     ]
   },
   {
@@ -12440,8 +11871,7 @@
       "Kanban"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12462,8 +11892,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12531,8 +11960,6 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "TravelTech"
     ]
   },
@@ -12571,9 +11998,7 @@
       "Figma"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12603,9 +12028,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "HealthTech"
     ]
   },
   {
@@ -12637,10 +12060,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12659,8 +12079,7 @@
       "Vue.js"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12677,8 +12096,7 @@
       "React"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12695,8 +12113,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12729,9 +12146,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "ERP"
     ]
   },
   {
@@ -12761,10 +12176,7 @@
       "Kafka"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "Logistics"
+      "Unknown"
     ]
   },
   {
@@ -12803,8 +12215,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12825,9 +12236,7 @@
       "Agile"
     ],
     "business_domains": [
-      "B2C",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12851,10 +12260,8 @@
       "Performance Optimization"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "LegalTech",
+      "SaaS"
     ]
   },
   {
@@ -12875,8 +12282,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "MarTech"
     ]
   },
   {
@@ -12893,8 +12299,7 @@
       "React"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12911,7 +12316,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "Consulting"
     ]
   },
   {
@@ -12934,9 +12339,7 @@
       "Git"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "HRTech"
+      "Unknown"
     ]
   },
   {
@@ -12963,8 +12366,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -12981,9 +12383,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "LegalTech",
+      "SaaS"
     ]
   },
   {
@@ -13004,8 +12405,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Media"
     ]
   },
   {
@@ -13029,9 +12429,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Media"
     ]
   },
   {
@@ -13068,7 +12466,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "Unknown"
+      "Consulting"
     ]
   },
   {
@@ -13091,11 +12489,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI"
+      "Media"
     ]
   },
   {
@@ -13134,9 +12528,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -13180,9 +12572,7 @@
     ],
     "business_domains": [
       "B2C",
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -13225,10 +12615,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce"
+      "SaaS"
     ]
   },
   {
@@ -13255,8 +12642,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -13277,7 +12663,7 @@
       "Vue.js"
     ],
     "business_domains": [
-      "Unknown"
+      "Logistics"
     ]
   },
   {
@@ -13294,9 +12680,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Automotive"
     ]
   },
   {
@@ -13313,9 +12697,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Automotive"
     ]
   },
   {
@@ -13340,9 +12722,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Consulting"
     ]
   },
   {
@@ -13373,9 +12753,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -13402,12 +12780,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "LegalTech",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -13434,12 +12807,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "LegalTech",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -13479,9 +12847,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -13537,7 +12903,6 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -13588,9 +12953,7 @@
       "JWT"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -13612,10 +12975,8 @@
       "MongoDB"
     ],
     "business_domains": [
-      "ERP",
       "HealthTech",
-      "ECommerce",
-      "HRTech"
+      "Telecom"
     ]
   },
   {
@@ -13636,10 +12997,7 @@
       "WebRTC"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -13670,8 +13028,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -13696,9 +13053,8 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "DevTools"
+      "DevTools",
+      "Telecom"
     ]
   },
   {
@@ -13715,10 +13071,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -13740,10 +13093,7 @@
       "WebRTC"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -13760,9 +13110,7 @@
       "WordPress"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -13780,10 +13128,7 @@
       "NestJS"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -13812,8 +13157,6 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
       "AI"
     ]
   },
@@ -13852,11 +13195,9 @@
       "OpenAPI"
     ],
     "business_domains": [
-      "B2C",
-      "CRM",
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "AI",
+      "Consulting",
+      "MarTech"
     ]
   },
   {
@@ -13878,8 +13219,6 @@
       "Accessibility"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
       "ECommerce"
     ]
   },
@@ -13906,8 +13245,7 @@
       "Linux"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "B2C"
     ]
   },
   {
@@ -13933,10 +13271,8 @@
       "Linux"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce",
-      "AI"
+      "B2C",
+      "SaaS"
     ]
   },
   {
@@ -13953,7 +13289,9 @@
       "Not specified"
     ],
     "business_domains": [
+      "Automotive",
       "ECommerce",
+      "FinTech",
       "Marketplace",
       "RealEstate"
     ]
@@ -13976,9 +13314,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "Logistics"
+      "Unknown"
     ]
   },
   {
@@ -13996,9 +13332,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -14015,7 +13349,9 @@
       "Not specified"
     ],
     "business_domains": [
+      "Automotive",
       "ECommerce",
+      "FinTech",
       "Marketplace",
       "RealEstate"
     ]
@@ -14053,10 +13389,9 @@
       "Accessibility"
     ],
     "business_domains": [
-      "CRM",
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "AI",
+      "Consulting",
+      "MarTech"
     ]
   },
   {
@@ -14076,9 +13411,7 @@
       "CI/CD"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce"
+      "FinTech"
     ]
   },
   {
@@ -14099,10 +13432,7 @@
       "Figma"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI"
+      "Energy"
     ]
   },
   {
@@ -14123,9 +13453,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14146,8 +13474,6 @@
       "GraphQL"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
       "ECommerce"
     ]
   },
@@ -14172,7 +13498,6 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce",
       "Marketplace",
       "RealEstate"
@@ -14205,8 +13530,7 @@
       "Responsive Design"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14226,8 +13550,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14248,10 +13571,7 @@
       "Accessibility"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI",
-      "DevTools"
+      "Unknown"
     ]
   },
   {
@@ -14275,9 +13595,7 @@
       "Cloudflare"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14305,9 +13623,7 @@
       "Linux"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14326,8 +13642,7 @@
       "CSS"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14350,11 +13665,7 @@
       "Design Patterns"
     ],
     "business_domains": [
-      "SaaS",
-      "B2B",
-      "ERP",
-      "ECommerce",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -14376,8 +13687,7 @@
       "Drupal"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14399,12 +13709,8 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "HealthTech",
-      "ECommerce",
       "CyberSecurity",
-      "AI",
-      "TravelTech"
+      "FinTech"
     ]
   },
   {
@@ -14421,11 +13727,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "SaaS",
-      "ERP",
-      "ECommerce",
-      "AI",
-      "TravelTech"
+      "Unknown"
     ]
   },
   {
@@ -14442,7 +13744,6 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
       "ECommerce"
     ]
   },
@@ -14460,11 +13761,7 @@
       "Not specified"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "HRTech",
-      "TravelTech"
+      "PublicSector"
     ]
   },
   {
@@ -14481,8 +13778,8 @@
       "Less"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Consulting",
+      "HealthTech"
     ]
   },
   {
@@ -14500,10 +13797,7 @@
       "Agile"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "AI"
+      "FinTech"
     ]
   },
   {
@@ -14525,8 +13819,7 @@
       "Scrum"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce"
+      "Unknown"
     ]
   },
   {
@@ -14548,10 +13841,7 @@
       "Linux"
     ],
     "business_domains": [
-      "B2B",
-      "ERP",
-      "ECommerce",
-      "HRTech"
+      "Unknown"
     ]
   },
   {
@@ -14570,11 +13860,7 @@
       "Angular"
     ],
     "business_domains": [
-      "ERP",
-      "FinTech",
-      "ECommerce",
-      "HRTech",
-      "AI"
+      "Unknown"
     ]
   },
   {
@@ -14593,9 +13879,7 @@
       "SOLID"
     ],
     "business_domains": [
-      "ERP",
-      "ECommerce",
-      "AI"
+      "FinTech"
     ]
   }
 ]

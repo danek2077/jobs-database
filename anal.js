@@ -5,12 +5,16 @@ const ADZUNA_APP_ID = "97396f0f";
 const ADZUNA_APP_KEY = "d2c5ffc48d299775c18e381883d8b420";
 
 const keywords = [
-  "Web Developer",
-  "Software Engineer JavaScript",
-  "Software Engineer TypeScript"
-]
+  "Frontend Engineer",
+  "Frontend Developer",
+  "Front End Developer",
+  "Front-End Engineer",
+  "Développeur Frontend",
+  "Développeur Front-End",
+  "Ingénieur Frontend",
+];
 
-const fileName = "fr-web.json"
+const fileName = "frb-frontend.json";
 
 const TECH_DICTIONARY = [
   "JavaScript",
@@ -265,12 +269,109 @@ const TECH_DICTIONARY = [
   "Contentful",
 ];
 
+const BUSINESS_DOMAINS = {
+  SaaS: ["saas", "software as a service", "subscription platform"],
+
+  B2B: ["b2b", "business to business"],
+
+  B2C: ["b2c", "business to consumer"],
+
+  CRM: ["crm", "customer relationship management", "sales platform"],
+
+  ERP: ["erp", "enterprise resource planning"],
+
+  FinTech: [
+    "fintech",
+    "banking",
+    "payments",
+    "financial services",
+    "trading",
+    "insurance technology",
+  ],
+
+  HealthTech: [
+    "healthtech",
+    "health care",
+    "healthcare",
+    "medical platform",
+    "telemedicine",
+    "hospital",
+  ],
+
+  EdTech: ["edtech", "e-learning", "online learning", "education platform"],
+
+  ECommerce: [
+    "ecommerce",
+    "e-commerce",
+    "online store",
+    "marketplace",
+    "retail platform",
+  ],
+
+  Marketplace: ["marketplace", "two sided marketplace", "platform connecting"],
+
+  AdTech: ["adtech", "advertising platform", "marketing platform"],
+
+  MarTech: ["martech", "marketing automation", "campaign management"],
+
+  HRTech: [
+    "hrtech",
+    "recruitment platform",
+    "talent acquisition",
+    "human resources",
+  ],
+
+  LegalTech: ["legaltech", "legal services", "compliance platform"],
+
+  CyberSecurity: [
+    "cybersecurity",
+    "security platform",
+    "identity management",
+    "fraud prevention",
+  ],
+
+  AI: [
+    "artificial intelligence",
+    "machine learning",
+    "generative ai",
+    "llm",
+    "ai platform",
+  ],
+
+  DevTools: [
+    "developer platform",
+    "developer tools",
+    "devops platform",
+    "engineering productivity",
+  ],
+
+  Logistics: [
+    "logistics",
+    "supply chain",
+    "transportation platform",
+    "fleet management",
+  ],
+
+  TravelTech: ["travel", "booking platform", "hospitality"],
+
+  RealEstate: ["real estate", "property management", "proptech"],
+
+  Gaming: ["gaming", "video game", "game platform"],
+
+  Adult: [
+    "adult content",
+    "creator economy",
+    "onlyfans",
+    "adult entertainment",
+  ],
+};
+
 const apiConfig = {
   headers: {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     Accept: "application/json",
-    Referer: "https://your-domain.com/"
-  }
+    Referer: "https://your-domain.com/",
+  },
 };
 
 const scrapingConfig = {
@@ -303,6 +404,24 @@ function extractTechStack(htmlOrText) {
     );
     return regex.test(cleanText);
   });
+}
+
+function extractBusinessDomains(text) {
+  const found = [];
+
+  const source = text.toLowerCase();
+
+  for (const [domain, keywords] of Object.entries(BUSINESS_DOMAINS)) {
+    const matched = keywords.some((keyword) =>
+      source.includes(keyword.toLowerCase())
+    );
+
+    if (matched) {
+      found.push(domain);
+    }
+  }
+
+  return found;
 }
 
 // Глубокий сбор с Adzuna (парсит несколько страниц)
@@ -395,7 +514,7 @@ async function fetchCareerjetDeep(keyword, pages = 3) {
         );
         return [];
       }
-    
+
       return Array.isArray(result.value?.data?.jobs)
         ? result.value.data.jobs
         : [];
@@ -449,7 +568,6 @@ async function runAggregator() {
   );
 
   // Расширили ключи, чтобы зацепить "скрытый" фронтенд и фулстек на JS/TS
-  
 
   let rawJobs = [];
   for (const key of keywords) {
@@ -536,6 +654,9 @@ async function runAggregator() {
         }
 
         const detectedStack = extractTechStack(textToAnalyze);
+        const domains = extractBusinessDomains(textToAnalyze);
+
+        job.business_domains = domains.length > 0 ? domains : ["Unknown"];
         job.stack =
           detectedStack.length > 0 ? detectedStack : ["Not specified"];
         delete job.snippet;
@@ -547,11 +668,7 @@ async function runAggregator() {
     await new Promise((r) => setTimeout(r, 1200));
   }
 
-  fs.writeFileSync(
-    fileName,
-    JSON.stringify(finalJobs, null, 2),
-    "utf8"
-  );
+  fs.writeFileSync(fileName, JSON.stringify(finalJobs, null, 2), "utf8");
   console.log(
     `\n🎉 ГОТОВО! База данных на ${finalJobs.length} вакансий собрана`
   );

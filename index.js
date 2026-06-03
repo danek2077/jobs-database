@@ -1,13 +1,5 @@
 const fs = require("fs");
 
-const files = [
-  "fr-frontend.json",
-  "fr-fullstack.json",
-  "fr-next.json",
-  "fr-react.json",
-  "fr-web.json",
-];
-
 const SEARCH_GROUPS = {
   frontend: [
     "Frontend Engineer",
@@ -25,12 +17,7 @@ const SEARCH_GROUPS = {
     "React JS",
     "ReactJS",
   ],
-  next: [
-    "Next.js",
-    "NextJS",
-    "Next Developer",
-    "Développeur Next.js",
-  ],
+  next: ["Next.js", "NextJS", "Next Developer", "Développeur Next.js"],
   fullstack: [
     "Full Stack Developer",
     "Fullstack Developer",
@@ -46,7 +33,7 @@ const TECH_ALIASES = {
   NextJS: "Next.js",
   "Next Js": "Next.js",
   "Vue.js": "Vue",
-  "ReactJS": "React",
+  ReactJS: "React",
   "React JS": "React",
   "Nest.js": "NestJS",
   "Amazon Web Services": "AWS",
@@ -511,24 +498,15 @@ function buildCombinations(items, minSize = 3, maxSize = 4) {
 // LOAD ALL JOBS
 // =======================
 
-let allJobs = [];
+const rows = db.prepare("SELECT * FROM jobs").all();
 
-for (const file of files) {
-  const jobs = JSON.parse(fs.readFileSync(file, "utf-8"));
-  const category = file.replace(".json", "").replace("fr-", "");
+const allJobs = rows.map((job) => ({
+  ...job,
 
-  allJobs.push(
-    ...jobs.map((job) => {
-      const text = `${job.title || ""} ${job.description || ""}`;
+  stack: JSON.parse(job.stack || "[]"),
 
-      return {
-        ...job,
-        category,
-        stack: extractSkills(text, TECH_PATTERNS),
-      };
-    })
-  );
-}
+  category: job.search_group,
+}));
 
 const totalJobs = allJobs.length;
 
@@ -644,10 +622,7 @@ const remotePatterns = [
   /\bwork\s*from\s*home\b/i,
 ];
 
-const hybridPatterns = [
-  /\bhybrid\b/i,
-  /\bhybride\b/i,
-];
+const hybridPatterns = [/\bhybrid\b/i, /\bhybride\b/i];
 
 const workMode = {
   remote: 0,

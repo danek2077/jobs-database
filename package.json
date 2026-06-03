@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fr-jobs": "node parser.js",
-    "anal":"node anal.js",
-    "index":"node index.js"
+    "anal": "node anal.js",
+    "index": "node index.js",
+    "db": "node import-jsons.js",
+    "query":"node query.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
   "type": "commonjs",
   "dependencies": {
     "axios": "^1.16.1",
+    "better-sqlite3": "^12.10.0",
     "playwright": "^1.60.0"
   }
 }

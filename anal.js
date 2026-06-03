@@ -67,6 +67,24 @@ const keywords = SEARCH_GROUPS[GROUP];
 
 const fileName = `${GROUP}-europe.json`;
 
+const TECH_ALIASES = {
+  NodeJS: "Node.js",
+  "Node JS": "Node.js",
+  NextJS: "Next.js",
+  "Next Js": "Next.js",
+  "Vue.js": "Vue",
+  ReactJS: "React",
+  "React JS": "React",
+  "Nest.js": "NestJS",
+  "Amazon Web Services": "AWS",
+  "Microsoft Azure": "Azure",
+  "Google Cloud": "GCP",
+  Postgres: "PostgreSQL",
+  "Tailwind CSS": "Tailwind",
+  K8s: "Kubernetes",
+  RESTful: "REST",
+};
+
 
 const TECH_DICTIONARY = [
   "JavaScript",
@@ -92,6 +110,7 @@ const TECH_DICTIONARY = [
 
   "Next.js",
   "NextJS",
+  "Next Js",
   "Nuxt.js",
   "Nuxt",
   "SvelteKit",
@@ -165,6 +184,7 @@ const TECH_DICTIONARY = [
 
   "Node.js",
   "NodeJS",
+  "Node JS",
   "Express",
   "NestJS",
   "Nest.js",
@@ -197,6 +217,7 @@ const TECH_DICTIONARY = [
   "MariaDB",
   "SQLite",
   "Redis",
+  "Elasticsearch",
   "ElasticSearch",
   "OpenSearch",
 
@@ -210,6 +231,7 @@ const TECH_DICTIONARY = [
   "Microsoft Azure",
   "GCP",
   "Google Cloud",
+  "Google Cloud Platform",
   "Cloudflare",
   "CloudFront",
   "Vercel",
@@ -322,100 +344,34 @@ const TECH_DICTIONARY = [
 ];
 
 const BUSINESS_DOMAINS = {
-  SaaS: ["saas", "software as a service", "subscription platform"],
-
-  B2B: ["b2b", "business to business"],
-
-  B2C: ["b2c", "business to consumer"],
-
-  CRM: ["crm", "customer relationship management", "sales platform"],
-
-  ERP: ["erp", "enterprise resource planning"],
-
-  FinTech: [
-    "fintech",
-    "banking",
-    "payments",
-    "financial services",
-    "trading",
-    "insurance technology",
-  ],
-
-  HealthTech: [
-    "healthtech",
-    "health care",
-    "healthcare",
-    "medical platform",
-    "telemedicine",
-    "hospital",
-  ],
-
-  EdTech: ["edtech", "e-learning", "online learning", "education platform"],
-
-  ECommerce: [
-    "ecommerce",
-    "e-commerce",
-    "online store",
-    "marketplace",
-    "retail platform",
-  ],
-
-  Marketplace: ["marketplace", "two sided marketplace", "platform connecting"],
-
-  AdTech: ["adtech", "advertising platform", "marketing platform"],
-
-  MarTech: ["martech", "marketing automation", "campaign management"],
-
-  HRTech: [
-    "hrtech",
-    "recruitment platform",
-    "talent acquisition",
-    "human resources",
-  ],
-
-  LegalTech: ["legaltech", "legal services", "compliance platform"],
-
-  CyberSecurity: [
-    "cybersecurity",
-    "security platform",
-    "identity management",
-    "fraud prevention",
-  ],
-
-  AI: [
-    "artificial intelligence",
-    "machine learning",
-    "generative ai",
-    "llm",
-    "ai platform",
-  ],
-
-  DevTools: [
-    "developer platform",
-    "developer tools",
-    "devops platform",
-    "engineering productivity",
-  ],
-
-  Logistics: [
-    "logistics",
-    "supply chain",
-    "transportation platform",
-    "fleet management",
-  ],
-
-  TravelTech: ["travel", "booking platform", "hospitality"],
-
-  RealEstate: ["real estate", "property management", "proptech"],
-
-  Gaming: ["gaming", "video game", "game platform"],
-
-  Adult: [
-    "adult content",
-    "creator economy",
-    "onlyfans",
-    "adult entertainment",
-  ],
+  SaaS: ["saas", "software as a service", "subscription platform", "subscription software", "cloud software", "b2b software"],
+  B2B: ["b2b", "b-to-b", "btob", "business to business", "business customers", "enterprise customers", "for businesses", "business clients", "corporate clients"],
+  B2C: ["b2c", "b-to-c", "btoc", "business to consumer", "consumer app", "consumer product", "end users", "customers worldwide"],
+  CRM: ["crm", "customer relationship management", "sales platform", "sales enablement", "customer engagement", "customer success", "lead management"],
+  ERP: ["erp", "enterprise resource planning", "business management software", "back office", "procurement", "inventory management"],
+  FinTech: ["fintech", "banking", "payments", "payment", "financial services", "trading", "wealth management", "asset management", "investment", "lending", "credit", "loan", "mortgage", "neobank", "open banking", "crypto", "blockchain", "insurtech", "insurance", "accounting", "tax", "invoice", "billing"],
+  HealthTech: ["healthtech", "health tech", "health care", "healthcare", "medical platform", "telemedicine", "hospital", "clinic", "patient", "digital health", "medtech", "pharma", "biotech", "clinical", "wellness", "nutrition"],
+  EdTech: ["edtech", "e-learning", "elearning", "online learning", "education platform", "learning platform", "training platform", "lms", "school", "university", "student", "course", "upskilling"],
+  ECommerce: ["ecommerce", "e-commerce", "e commerce", "online store", "online shop", "webshop", "marketplace", "retail platform", "retail", "commerce platform", "shopify", "checkout", "merchandising"],
+  Marketplace: ["marketplace", "two sided marketplace", "two-sided marketplace", "platform connecting", "buyers and sellers", "classifieds", "on-demand platform", "booking marketplace"],
+  AdTech: ["adtech", "ad tech", "advertising platform", "programmatic", "ad serving", "media buying", "dsp", "ssp", "ad exchange"],
+  MarTech: ["martech", "marketing technology", "marketing automation", "campaign management", "email marketing", "customer data platform", "cdp", "growth platform", "loyalty", "personalisation", "personalization"],
+  HRTech: ["hrtech", "hr tech", "recruitment platform", "talent acquisition", "human resources", "people platform", "payroll", "workforce management", "employee experience", "applicant tracking", "ats", "staffing"],
+  LegalTech: ["legaltech", "legal tech", "legal services", "compliance platform", "contract management", "regtech", "regulatory", "kyc", "aml", "risk management", "governance"],
+  CyberSecurity: ["cybersecurity", "cyber security", "security platform", "identity management", "fraud prevention", "infosec", "authentication", "authorization", "zero trust", "iam", "soc", "threat", "vulnerability", "penetration testing"],
+  AI: ["artificial intelligence", "machine learning", "generative ai", "genai", "llm", "large language model", "ai platform", "data science", "computer vision", "nlp", "predictive analytics", "recommendation engine", "automation platform"],
+  DevTools: ["developer platform", "developer tools", "devtools", "devops platform", "engineering productivity", "api platform", "cloud infrastructure", "observability", "monitoring platform", "ci/cd platform", "low-code", "no-code", "open source"],
+  Logistics: ["logistics", "supply chain", "transportation platform", "fleet management", "warehouse", "shipping", "freight", "last mile", "mobility", "route optimization", "fulfilment", "fulfillment"],
+  TravelTech: ["travel", "traveltech", "travel tech", "booking platform", "hospitality", "hotel", "airline", "tourism", "holiday", "vacation", "accommodation", "restaurant", "event booking"],
+  RealEstate: ["real estate", "property management", "proptech", "property tech", "housing", "rental", "lettings", "mortgage", "construction", "building management", "facility management"],
+  Gaming: ["gaming", "video game", "game platform", "games", "esports", "game server", "minecraft", "ark", "rust", "unity", "unreal engine"],
+  Media: ["media", "streaming", "video platform", "publishing", "news", "broadcast", "content platform", "entertainment", "music", "podcast", "creator platform"],
+  Telecom: ["telecom", "telecommunications", "connectivity", "broadband", "fiber", "5g", "iot", "internet of things", "network operator"],
+  Energy: ["energy", "cleantech", "clean tech", "renewable", "solar", "wind", "electric vehicle", "ev charging", "smart grid", "climate tech", "carbon", "sustainability", "circular economy"],
+  Automotive: ["automotive", "car", "vehicle", "mobility", "autonomous driving", "connected vehicle", "fleet", "ev", "leasing"],
+  PublicSector: ["public sector", "government", "govtech", "civic tech", "municipality", "european commission", "public institution", "defence", "defense"],
+  Consulting: ["consulting", "digital agency", "software agency", "it services", "professional services", "systems integrator", "consultancy"],
+  Adult: ["adult content", "onlyfans", "adult entertainment", "nsfw", "sex tech"],
 };
 
 const apiConfig = {
@@ -438,37 +394,70 @@ const scrapingConfig = {
   maxRedirects: 5,
 };
 
-function extractTechStack(htmlOrText) {
-  if (!htmlOrText) return [];
+function escapeRegex(text) {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
-  htmlOrText = String(htmlOrText);
+function normalizeTechName(tech) {
+  return TECH_ALIASES[tech] || tech;
+}
 
-  if (!htmlOrText.trim()) return [];
-  let cleanText = htmlOrText
+function buildTermRegex(term) {
+  return new RegExp(
+    `(^|[^\\p{L}\\p{N}])${escapeRegex(term)}($|[^\\p{L}\\p{N}])`,
+    "iu"
+  );
+}
+
+function cleanText(htmlOrText) {
+  return String(htmlOrText || "")
     .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, " ");
-  cleanText = cleanText.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-  return TECH_DICTIONARY.filter((tech) => {
-    const escapedTech = tech.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
-    const regex = new RegExp(
-      `(?<![a-zA-Z0-9А-Яа-яёЁ])${escapedTech}(?![a-zA-Z0-9А-Яа-яёЁ])`,
-      "i"
-    );
-    return regex.test(cleanText);
-  });
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+const TECH_PATTERNS = TECH_DICTIONARY
+  .slice()
+  .sort((a, b) => b.length - a.length)
+  .map((tech) => ({
+    canonical: normalizeTechName(tech),
+    regex: buildTermRegex(tech),
+  }));
+
+const BUSINESS_DOMAIN_PATTERNS = Object.fromEntries(
+  Object.entries(BUSINESS_DOMAINS).map(([domain, keywords]) => [
+    domain,
+    keywords.slice().sort((a, b) => b.length - a.length).map(buildTermRegex),
+  ])
+);
+
+function extractTechStack(htmlOrText) {
+  const source = cleanText(htmlOrText);
+  if (!source) return [];
+
+  const found = new Set();
+
+  for (const pattern of TECH_PATTERNS) {
+    if (pattern.regex.test(source)) {
+      found.add(pattern.canonical);
+    }
+  }
+
+  return [...found];
 }
 
 function extractBusinessDomains(text) {
+  const source = cleanText(text).toLowerCase();
+  if (!source) return [];
+
   const found = [];
 
-  const source = text.toLowerCase();
-
-  for (const [domain, keywords] of Object.entries(BUSINESS_DOMAINS)) {
-    const matched = keywords.some((keyword) =>
-      source.includes(keyword.toLowerCase())
-    );
-
-    if (matched) {
+  for (const [domain, patterns] of Object.entries(BUSINESS_DOMAIN_PATTERNS)) {
+    if (patterns.some((pattern) => pattern.test(source))) {
       found.push(domain);
     }
   }
@@ -633,7 +622,7 @@ for (const country of COUNTRIES) {
           ).slice(0, 35)}..." от ${String(job.company || "Unknown company")}`
         );
 
-        let textToAnalyze = job.snippet || "";
+        let textToAnalyze = `${job.title || ""} ${job.company || ""} ${job.location || ""} ${job.snippet || ""}`;
         if (job.url) {
           try {
             const pageRes = await axios.get(job.url, scrapingConfig);

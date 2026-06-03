@@ -2,31 +2,57 @@ const fs = require("fs");
 
 const SEARCH_GROUPS = {
   frontend: [
-    "Frontend Engineer",
     "Frontend Developer",
+    "Frontend Engineer",
     "Front End Developer",
+    "Front End Engineer",
+    "Front-End Developer",
     "Front-End Engineer",
-    "Développeur Frontend",
-    "Développeur Front-End",
-    "Ingénieur Frontend",
   ],
+
   react: [
     "React Developer",
     "React Engineer",
-    "Développeur React",
-    "React JS",
-    "ReactJS",
+    "ReactJS Developer",
+    "React JS Developer",
+    "Senior React Developer",
+    "Frontend React Developer",
   ],
-  next: ["Next.js", "NextJS", "Next Developer", "Développeur Next.js"],
+
+  next: [
+    "Next.js Developer",
+    "Next.js Engineer",
+    "NextJS Developer",
+    "NextJS Engineer",
+    "Frontend Next.js Developer",
+  ],
+
   fullstack: [
     "Full Stack Developer",
-    "Fullstack Developer",
     "Full Stack Engineer",
+    "Fullstack Developer",
+    "Fullstack Engineer",
     "JavaScript Developer",
     "TypeScript Developer",
     "Node.js Developer",
+    "Node.js Engineer",
+    "Full Stack JavaScript Developer",
+    "Full Stack TypeScript Developer",
   ],
+  web: [
+    "web developer",
+    "web Engineer",
+    "ui developer",
+    "ui engineer",
+  ],
+  software: ["Software Engineer", "Software Developer"],
+  remote: [
+    "Remote Frontend Developer",
+    "Remote React Developer",
+    "Remote Full Stack Developer",
+  ]
 };
+
 
 const TECH_ALIASES = {
   NodeJS: "Node.js",
@@ -382,6 +408,7 @@ const MEANINGFUL_COMBO_TECHS = new Set([
   "Webpack",
   "Babel",
   "SWC",
+
 ]);
 
 function escapeRegex(text) {

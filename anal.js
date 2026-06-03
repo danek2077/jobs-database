@@ -4,17 +4,69 @@ const axios = require("axios");
 const ADZUNA_APP_ID = "97396f0f";
 const ADZUNA_APP_KEY = "d2c5ffc48d299775c18e381883d8b420";
 
-const keywords = [
-  "Frontend Engineer",
-  "Frontend Developer",
-  "Front End Developer",
-  "Front-End Engineer",
-  "Développeur Frontend",
-  "Développeur Front-End",
-  "Ingénieur Frontend",
+const GROUP = "frontend"
+
+const COUNTRIES = [
+  "gb", // United Kingdom
+  "fr", // France
+  "de", // Germany
+  "nl", // Netherlands
+  "be", // Belgium
+  "it", // Italy
+  "at", // Austria
+  "ch", // Switzerland
+  "ie", // Ireland
 ];
 
-const fileName = "frb-frontend.json";
+const SEARCH_GROUPS = {
+  frontend: [
+    "Frontend Developer",
+    "Frontend Engineer",
+    "Front End Developer",
+    "Front End Engineer",
+    "Front-End Developer",
+    "Front-End Engineer",
+    "Frontend Software Engineer",
+    "Frontend Software Developer",
+  ],
+
+  react: [
+    "React Developer",
+    "React Engineer",
+    "Frontend React Developer",
+    "Senior React Developer",
+  ],
+
+  next: [
+    "Next.js Developer",
+    "Next.js Engineer",
+    "NextJS Developer",
+    "NextJS Engineer",
+  ],
+
+  fullstack: [
+    "Full Stack Developer",
+    "Full Stack Engineer",
+    "Fullstack Developer",
+    "Fullstack Engineer",
+    "Node.js Developer",
+    "Node.js Engineer",
+  ],
+
+  web: [
+    "Web Developer",
+    "Web Engineer",
+    "UI Developer",
+    "UI Engineer",
+    "JavaScript Developer",
+    "JavaScript Engineer",
+  ],
+};
+
+const keywords = SEARCH_GROUPS[GROUP];
+
+const fileName = `${GROUP}-europe.json`;
+
 
 const TECH_DICTIONARY = [
   "JavaScript",
@@ -380,7 +432,7 @@ const scrapingConfig = {
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     Accept:
       "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
   },
   timeout: 10000,
   maxRedirects: 5,
@@ -425,39 +477,47 @@ function extractBusinessDomains(text) {
 }
 
 // Глубокий сбор с Adzuna (парсит несколько страниц)
-async function fetchAdzunaDeep(keyword, pages = 3) {
+async function fetchAdzunaDeep(keyword, country, pages = 1) {
   let results = [];
+
   for (let page = 1; page <= pages; page++) {
     try {
       const res = await axios.get(
-        "https://api.adzuna.com/v1/api/jobs/fr/search/" + page,
+        `https://api.adzuna.com/v1/api/jobs/${country}/search/${page}`,
         {
           params: {
             app_id: ADZUNA_APP_ID,
             app_key: ADZUNA_APP_KEY,
             what: keyword,
-            results_per_page: 50,
+            results_per_page: 5,
           },
           ...apiConfig,
         }
       );
+
       const jobs = res.data.results || [];
+
       if (jobs.length === 0) break;
+
       results.push(...jobs);
     } catch (err) {
       console.error(
-        `[Adzuna] Page ${page}:`,
+        `[${country}] ${keyword} page ${page}`,
         err.response?.status,
         err.message
       );
       break;
     }
   }
+
   console.log(
-    `✅ [Adzuna] По ключу "${keyword}" собрано страниц: ${pages}. Вакансий: ${results.length}`
+    `✅ ${country.toUpperCase()} | ${keyword} | ${results.length} jobs`
   );
+
   return results.map((job) => ({
     source: "Adzuna",
+
+    country,
 
     title: job.title || "Unknown",
 
@@ -466,7 +526,7 @@ async function fetchAdzunaDeep(keyword, pages = 3) {
         ? job.company
         : job.company?.display_name || "Unknown",
 
-    location: job.location?.display_name || "France",
+    location: job.location?.display_name || country,
 
     description: job.description || "",
 
@@ -482,86 +542,6 @@ async function fetchAdzunaDeep(keyword, pages = 3) {
   }));
 }
 
-// Глубокий сбор с Careerjet (парсит несколько страниц)
-async function fetchCareerjetDeep(keyword, pages = 3) {
-  const searchKeyword = keyword.trim();
-
-  const requests = Array.from({ length: pages }, (_, i) =>
-    axios.get("http://public.api.careerjet.net/search", {
-      params: {
-        locale_code: "fr_FR",
-        keywords: searchKeyword,
-        location: "France",
-        pagesize: 50,
-        page: i + 1,
-        user_agent:
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
-        user_ip: "127.0.0.1",
-      },
-      ...apiConfig,
-    })
-  );
-
-  try {
-    const responses = await Promise.allSettled(requests);
-
-    const jobs = responses.flatMap((result, index) => {
-      if (result.status === "rejected") {
-        console.error(
-          `[Careerjet] Page ${index + 1} failed:`,
-          result.reason?.response?.status,
-          result.reason?.response?.data || result.reason?.message
-        );
-        return [];
-      }
-
-      return Array.isArray(result.value?.data?.jobs)
-        ? result.value.data.jobs
-        : [];
-    });
-
-    // Удаляем дубликаты по URL
-    const uniqueJobs = [...new Map(jobs.map((job) => [job.url, job])).values()];
-
-    if (result.status === "rejected") {
-      console.error(
-        `[Careerjet] Page ${index + 1} failed:`,
-        result.reason?.response?.status,
-        result.reason?.response?.data || result.reason?.message
-      );
-      return [];
-    }
-
-    return uniqueJobs.map((job) => ({
-      source: "Careerjet",
-
-      title: job.title?.trim() || "Sans titre",
-
-      company: job.company?.trim() || "Inconnu",
-
-      location: job.locations || "France",
-
-      description: job.description || "",
-
-      url: job.url,
-
-      salary: null,
-
-      date: job.date || null,
-
-      snippet: `${job.title || ""} ${job.description || ""}`,
-
-      stack: [],
-    }));
-  } catch (error) {
-    console.error(
-      "[Careerjet] Fatal error:",
-      error.response?.data || error.message
-    );
-    return [];
-  }
-}
-
 async function runAggregator() {
   console.log(
     "🇨🇵 ШАГ 1: Глубокий сбор сырой базы (Цель: 300+ уникальных вакансий)...\n"
@@ -570,10 +550,22 @@ async function runAggregator() {
   // Расширили ключи, чтобы зацепить "скрытый" фронтенд и фулстек на JS/TS
 
   let rawJobs = [];
+
+for (const country of COUNTRIES) {
+  console.log(`\n🌍 ${country.toUpperCase()}\n`);
+
   for (const key of keywords) {
-    const adz = await fetchAdzunaDeep(key, 3); // по 3 страницы с каждого ключа
-    rawJobs.push(...adz);
+    const jobs = await fetchAdzunaDeep(
+      key,
+      country,
+      5
+    );
+
+    rawJobs.push(...jobs);
+
+    await new Promise((r) => setTimeout(r, 500));
   }
+}
 
   console.log(`\nВсего собрано сырых позиций: ${rawJobs.length}`);
 
